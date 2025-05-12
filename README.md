@@ -1,4 +1,4 @@
-# KLIC to Shapefiles Converter
+# KLIC-import-tool
 
 A Python utility that converts KLIC/IMKL ZIP deliveries into standardized ESRI Shapefiles. This tool processes Dutch utility location data (KLIC/WIBON) from XML/GML format into readily usable GIS files.
 
