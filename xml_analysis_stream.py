@@ -7,7 +7,7 @@ from lxml import etree
 from collections import defaultdict
 import logging
 from pathlib import Path
-from typing import Dict, Optional, Generator
+from typing import Dict, Optional, Generator, Tuple
 from contextlib import contextmanager
 import argparse
 import zipfile
@@ -74,30 +74,41 @@ class StreamingKLICAnalyzer:
         self.xml_path = xml_path
         self.feature_counts = defaultdict(int)
         self.geometry_types = defaultdict(set)
+        # count per‑group geometries!
         self.klic_group_features = defaultdict(lambda: defaultdict(int))
         self.crs_info = None
-        
+
+        # precompute lowercase element names for grouping
+        self.group_elements = {
+            group: [e.lower() for e in info['elements']]
+            for group, info in KLIC_FEATURE_MAPPINGS.items()
+        }
         # Configure logging
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s'
         )
         self.logger = logging.getLogger(__name__)
-        
+
         # Get target elements for parsing
         self.target_elements = self._get_target_elements()
 
     def _get_target_elements(self) -> set:
         """Get all elements we need to track from KLIC mappings."""
+
+        # lower-case the tags we care about
         elements = set()
         for group_info in KLIC_FEATURE_MAPPINGS.values():
-            elements.update(group_info['elements'])
-        # Add additional elements we want to track
-        elements.update([
-            'ExtraGeometrie', 'UtilityLink', 'Appurtenance',
-            'Belanghebbende', 'Belang', 'Beheerder', 'GebiedsinformatieLevering'
-        ])
+            for e in group_info['elements']:
+                elements.add(e.lower())
+        # lower-case the extra “always-track” tags
+        for e in [
+            'ExtraGeometrie','UtilityLink','Appurtenance',
+            'Belanghebbende','Belang','Beheerder','GebiedsinformatieLevering'
+        ]:
+            elements.add(e.lower())
         return elements
+
 
     @contextmanager
     def _iterparse(self, xml_path: str, events=('end',)) -> Generator:
@@ -106,71 +117,85 @@ class StreamingKLICAnalyzer:
         yield context
         del context
 
+    def _tag(self, elem):
+        # helper to get lowercase local-name
+        return elem.tag.split('}')[-1].lower()
+
+
+
+
     def _get_geometry_type(self, element) -> Optional[str]:
-        """Determine geometry type from element."""
+        """Determine geometry type from any GML or envelope-like tag underneath."""
         geom_checks = {
-            'point': ['Point', 'MultiPoint'],
-            'line': ['LineString', 'MultiLineString', 'Curve', 'MultiCurve'],
-            'polygon': ['Polygon', 'MultiPolygon', 'Surface', 'MultiSurface']
+            'point':     ['Point', 'MultiPoint', 'pos', 'posList'],
+            'line':      ['LineString', 'MultiLineString', 'Curve', 'MultiCurve',
+                          'LineStringSegment', 'LinearRing'],
+            'polygon':   ['Polygon', 'MultiPolygon', 'Surface', 'MultiSurface',
+                          'Envelope', 'boundedBy', 'exterior', 'interior']
         }
 
-        # Get element's local name
-        elem_name = element.tag.split('}')[-1]
-        
-        # Check if element itself is a geometry
-        for geom_type, tags in geom_checks.items():
-            if elem_name in tags:
-                return geom_type
-
-        # Check children
-        for child in element:
-            child_name = child.tag.split('}')[-1]
-            for geom_type, tags in geom_checks.items():
-                if child_name in tags:
+        # scan all descendants
+        for desc in element.iter():
+            local = desc.tag.split('}')[-1]
+            for geom_type, tagset in geom_checks.items():
+                if local in tagset:
                     return geom_type
-
         return None
 
     def analyze(self):
-        """Analyze XML file using streaming parser."""
         self.logger.info(f"Starting streaming analysis of: {self.xml_path}")
-        
-        try:
-            with self._iterparse(self.xml_path, events=('end', 'start-ns')) as context:
-                # Process elements
-                for event, elem in context:
-                    if event == 'end':
-                        # Get element's local name (without namespace)
-                        local_name = elem.tag.split('}')[-1]
-                        
-                        # Check CRS information
-                        if self.crs_info is None and 'srsName' in elem.attrib:
-                            self.crs_info = elem.attrib['srsName']
-                        
-                        # Count features
-                        if local_name in self.target_elements:
-                            self.feature_counts[local_name] += 1
-                            
-                            # Check geometry
-                            geom_type = self._get_geometry_type(elem)
-                            if geom_type:
-                                self.geometry_types[local_name].add(geom_type)
-                                
-                                # Update KLIC group counts
-                                for group_name, group_info in KLIC_FEATURE_MAPPINGS.items():
-                                    if local_name in group_info['elements']:
-                                        self.klic_group_features[group_name][geom_type] += 1
-                        
-                        # Clear element to free memory
-                        elem.clear()
-                        while elem.getprevious() is not None:
-                            del elem.getparent()[0]
-            
-            return True
-            
-        except Exception as e:
-            self.logger.error(f"Error during streaming analysis: {str(e)}")
-            return False
+        ns = {**NAMESPACES, 'gml': NAMESPACES['gml']}
+
+        # we only care when a featureMember closes
+        for _, fm in etree.iterparse(self.xml_path, events=('end',),
+                                     tag=f"{{{ns['gml']}}}featureMember",
+                                     recover=True):
+            # fm is <gml:featureMember>…</gml:featureMember>
+            # its first (and only) child is the real feature
+            feature = fm[0]
+            feat_tag = feature.tag.split('}')[-1]  # e.g. “Annotatie” or “Maatvoering”
+            feat_key = feat_tag.lower()
+
+            # count if it's one we track
+            if feat_key in self.target_elements:
+                self.feature_counts[feat_key] += 1
+
+                # look for geometry under two possible places
+                # 1) point/linestring under imkl:ligging
+                geom = feature.find('.//gml:Point',   namespaces=ns) \
+                    or feature.find('.//gml:LineString', namespaces=ns) \
+                    or feature.find('.//gml:Polygon',    namespaces=ns)
+
+                # 2) if it’s a “vlakgeometrie2D” feature (e.g. ExtraGeometrie),
+                #    the real Polygon lives deeper
+                if geom is None:
+                    geom = feature.find('.//imkl:vlakgeometrie2D//gml:Polygon', namespaces=ns)
+
+                if geom is not None:
+                    tag = geom.tag.split('}')[-1]
+                    # map the real tag to our abstract type
+                    if tag == 'Point':
+                        geom_type = 'point'
+                    elif tag == 'LineString':
+                        geom_type = 'line'
+                    elif tag == 'Polygon':
+                        geom_type = 'polygon'
+                    else:
+                        geom_type = None
+
+                    if geom_type:
+                        self.geometry_types[feat_key].add(geom_type)
+                        # increment the right group bucket
+                        for group_name, elems in self.group_elements.items():
+                            if feat_key in elems:
+                                self.klic_group_features[group_name][geom_type] += 1
+
+            # clear the whole featureMember from memory
+            fm.clear()
+            while fm.getprevious() is not None:
+                del fm.getparent()[0]
+
+        return True
 
     def generate_report(self) -> str:
         """Generate analysis report."""
@@ -178,6 +203,7 @@ class StreamingKLICAnalyzer:
         report.append("KLIC XML Streaming Analysis Report")
         report.append("================================\n")
 
+        # 1. Feature Counts
         report.append("1. Feature Counts:")
         report.append("-----------------")
         for feature, count in sorted(self.feature_counts.items()):
@@ -185,6 +211,7 @@ class StreamingKLICAnalyzer:
                 report.append(f"{feature}: {count}")
         report.append("")
 
+        # 2. KLIC Group Analysis
         report.append("2. KLIC Group Analysis:")
         report.append("--------------------")
         for group_name, group_info in KLIC_FEATURE_MAPPINGS.items():
@@ -192,10 +219,10 @@ class StreamingKLICAnalyzer:
             report.append(f"  Schema: {group_info['schema']}")
             report.append("  Elements:")
             for element in group_info['elements']:
-                count = self.feature_counts.get(element, 0)
+                key = element.lower()
+                count = self.feature_counts.get(key, 0)
                 status = "✓" if count > 0 else "-"
                 report.append(f"    {element}: {status} ({count})")
-            
             report.append("  Geometry Types:")
             for geom_type in group_info['geom_types']:
                 count = self.klic_group_features[group_name].get(geom_type, 0)
@@ -203,6 +230,7 @@ class StreamingKLICAnalyzer:
                 report.append(f"    {geom_type}: {status} ({count})")
         report.append("")
 
+        # 3. Geometry Types by Feature
         report.append("3. Geometry Types by Feature:")
         report.append("--------------------------")
         for feature, geom_types in sorted(self.geometry_types.items()):
@@ -210,6 +238,7 @@ class StreamingKLICAnalyzer:
                 report.append(f"{feature}: {', '.join(sorted(geom_types))}")
         report.append("")
 
+        # 4. CRS Information
         report.append("4. CRS Information:")
         report.append("-----------------")
         report.append(f"CRS: {self.crs_info or 'Not specified'}")

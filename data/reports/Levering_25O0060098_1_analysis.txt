@@ -3,17 +3,17 @@ KLIC XML Streaming Analysis Report
 
 1. Feature Counts:
 -----------------
-Annotatie: 7149
-Appurtenance: 12393
-Beheerder: 16
-Belang: 33
-Belanghebbende: 16
-Bijlage: 11
-ExtraGeometrie: 260
-GebiedsinformatieLevering: 1
-Maatvoering: 30570
-TechnischGebouw: 53
-UtilityLink: 12382
+annotatie: 7149
+appurtenance: 12393
+beheerder: 16
+belang: 33
+belanghebbende: 16
+bijlage: 11
+extrageometrie: 260
+gebiedsinformatielevering: 1
+maatvoering: 30570
+technischgebouw: 53
+utilitylink: 12382
 
 2. KLIC Group Analysis:
 --------------------
@@ -26,8 +26,8 @@ KLIC_Administratief:
     Maatvoering: ✓ (30570)
     TechnischGebouw: ✓ (53)
   Geometry Types:
-    point: - (0)
-    line: - (0)
+    point: ✓ (18776)
+    line: ✓ (18996)
     polygon: - (0)
 
 KLIC_Bijlage:
@@ -70,7 +70,13 @@ KLIC_LeidingPunt:
 
 3. Geometry Types by Feature:
 --------------------------
+annotatie: line, point
+appurtenance: point
+extrageometrie: polygon
+maatvoering: line, point
+technischgebouw: point
+utilitylink: line
 
 4. CRS Information:
 -----------------
-CRS: urn:ogc:def:crs:EPSG::28992
+CRS: Not specified

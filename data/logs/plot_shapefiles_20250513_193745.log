@@ -1,0 +1,57 @@
+2025-05-13 19:37:45,177 - INFO - Starting shapefile plotting process
+2025-05-13 19:37:45,178 - INFO - Processing delivery: Levering_25G0250699_1
+2025-05-13 19:37:45,220 - INFO - Found XML file: data/Levering_25G0250699_1/25G0250699_1/GI_gebiedsinformatielevering_25G0250699_1_V2.xml
+2025-05-13 19:37:45,220 - INFO - Found PNG file: data/Levering_25G0250699_1/25G0250699_1/bronnen/GB_25G0250699.png
+2025-05-13 19:37:45,220 - INFO - Found shapefile directory: data/outputs/Levering_25G0250699_1
+2025-05-13 19:37:45,222 - INFO - Retrieved bounding box from data/Levering_25G0250699_1/25G0250699_1/GI_gebiedsinformatielevering_25G0250699_1_V2.xml
+2025-05-13 19:37:47,512 - INFO - Plotted layer: KLIC_Administratief_polygon
+2025-05-13 19:37:49,189 - INFO - Plotted layer: KLIC_Administratief_line
+2025-05-13 19:37:50,876 - INFO - Plotted layer: KLIC_Administratief_point
+2025-05-13 19:37:52,658 - INFO - Plotted layer: KLIC_Administratief_line
+2025-05-13 19:37:54,534 - INFO - Plotted layer: KLIC_Administratief_polygon
+2025-05-13 19:37:56,179 - INFO - Plotted layer: KLIC_Administratief_point
+2025-05-13 19:38:02,733 - INFO - Saved plot to data/plots/Levering_25G0250699_1_plot.png
+2025-05-13 19:38:02,733 - INFO - Successfully created plot: data/plots/Levering_25G0250699_1_plot.png
+2025-05-13 19:38:02,734 - INFO - Processing delivery: Levering_25O0060098_1
+2025-05-13 19:38:03,370 - INFO - Found XML file: data/Levering_25O0060098_1/25O0060098_1/GI_gebiedsinformatielevering_25O0060098_1_V2.xml
+2025-05-13 19:38:03,371 - INFO - Found PNG file: data/Levering_25O0060098_1/25O0060098_1/bronnen/GB_25O0060098.png
+2025-05-13 19:38:03,371 - INFO - Found shapefile directory: data/outputs/Levering_25O0060098_1
+2025-05-13 19:38:03,372 - INFO - Retrieved bounding box from data/Levering_25O0060098_1/25O0060098_1/GI_gebiedsinformatielevering_25O0060098_1_V2.xml
+2025-05-13 19:38:05,475 - INFO - Plotted layer: KLIC_Administratief_line
+2025-05-13 19:38:06,746 - INFO - Plotted layer: KLIC_Administratief_point
+2025-05-13 19:38:08,612 - INFO - Plotted layer: KLIC_Administratief_line
+2025-05-13 19:38:10,402 - INFO - Plotted layer: KLIC_Administratief_point
+2025-05-13 19:38:15,661 - INFO - Saved plot to data/plots/Levering_25O0060098_1_plot.png
+2025-05-13 19:38:15,661 - INFO - Successfully created plot: data/plots/Levering_25O0060098_1_plot.png
+2025-05-13 19:38:15,661 - INFO - Processing delivery: Levering_25G0250414_1
+2025-05-13 19:38:15,681 - INFO - Found XML file: data/Levering_25G0250414_1/25G0250414_1/GI_gebiedsinformatielevering_25G0250414_1_V2.xml
+2025-05-13 19:38:15,681 - INFO - Found PNG file: data/Levering_25G0250414_1/25G0250414_1/bronnen/GB_25G0250414.png
+2025-05-13 19:38:15,681 - INFO - Found shapefile directory: data/outputs/Levering_25G0250414_1
+2025-05-13 19:38:15,682 - INFO - Retrieved bounding box from data/Levering_25G0250414_1/25G0250414_1/GI_gebiedsinformatielevering_25G0250414_1_V2.xml
+2025-05-13 19:38:16,546 - INFO - Plotted layer: KLIC_Administratief_polygon
+2025-05-13 19:38:17,288 - INFO - Plotted layer: KLIC_Administratief_line
+2025-05-13 19:38:17,977 - INFO - Plotted layer: KLIC_Administratief_point
+2025-05-13 19:38:18,651 - INFO - Plotted layer: KLIC_Administratief_line
+2025-05-13 19:38:19,447 - INFO - Plotted layer: KLIC_Administratief_polygon
+2025-05-13 19:38:20,241 - INFO - Plotted layer: KLIC_Administratief_point
+2025-05-13 19:38:24,595 - INFO - Saved plot to data/plots/Levering_25G0250414_1_plot.png
+2025-05-13 19:38:24,596 - INFO - Successfully created plot: data/plots/Levering_25G0250414_1_plot.png
+2025-05-13 19:38:24,596 - INFO - Processing delivery: Levering_25G0132393_1
+2025-05-13 19:38:24,617 - INFO - Found XML file: data/Levering_25G0132393_1/25G0132393_1/GI_gebiedsinformatielevering_25G0132393_1_V2.xml
+2025-05-13 19:38:24,617 - INFO - Found PNG file: data/Levering_25G0132393_1/25G0132393_1/bronnen/GB_25G0132393.png
+2025-05-13 19:38:24,617 - INFO - Found shapefile directory: data/outputs/Levering_25G0132393_1
+2025-05-13 19:38:24,618 - INFO - Retrieved bounding box from data/Levering_25G0132393_1/25G0132393_1/GI_gebiedsinformatielevering_25G0132393_1_V2.xml
+2025-05-13 19:38:27,595 - INFO - Plotted layer: KLIC_Administratief_polygon
+2025-05-13 19:38:29,666 - INFO - Plotted layer: KLIC_Administratief_line
+2025-05-13 19:38:31,708 - INFO - Plotted layer: KLIC_Administratief_point
+2025-05-13 19:38:33,895 - INFO - Plotted layer: KLIC_Administratief_line
+2025-05-13 19:38:35,986 - INFO - Plotted layer: KLIC_Administratief_polygon
+2025-05-13 19:38:37,978 - INFO - Plotted layer: KLIC_Administratief_point
+2025-05-13 19:38:45,567 - INFO - Saved plot to data/plots/Levering_25G0132393_1_plot.png
+2025-05-13 19:38:45,567 - INFO - Successfully created plot: data/plots/Levering_25G0132393_1_plot.png
+2025-05-13 19:38:45,567 - INFO - Processing delivery: Levering_25G0250429_1
+2025-05-13 19:38:45,586 - INFO - Found XML file: data/Levering_25G0250429_1/25G0250429_1/GI_gebiedsinformatielevering_25G0250429_1_V2.xml
+2025-05-13 19:38:45,586 - INFO - Found PNG file: data/Levering_25G0250429_1/25G0250429_1/bronnen/GB_25G0250429.png
+2025-05-13 19:38:45,587 - INFO - Found shapefile directory: data/outputs/Levering_25G0250429_1
+2025-05-13 19:38:45,587 - ERROR - No shapefiles found in data/outputs/Levering_25G0250429_1
+2025-05-13 19:38:45,587 - INFO - Completed shapefile plotting process

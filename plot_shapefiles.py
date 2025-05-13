@@ -23,7 +23,7 @@ import sys
 
 # Default paths
 DEFAULT_INPUT_DIR = Path('data/inputs')
-DEFAULT_OUTPUT_DIR = Path('data/extracted')
+DEFAULT_OUTPUT_DIR = Path('data')
 SHAPEFILES_DIR = Path('data/outputs')
 DEFAULT_LOG_DIR = Path('data/logs')
 
