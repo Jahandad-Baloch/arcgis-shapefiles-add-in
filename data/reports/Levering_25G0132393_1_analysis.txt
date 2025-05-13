@@ -1,0 +1,77 @@
+KLIC XML Streaming Analysis Report
+================================
+
+1. Feature Counts:
+-----------------
+Annotatie: 542
+Appurtenance: 128
+Beheerder: 10
+Belang: 16
+Belanghebbende: 10
+Bijlage: 2
+ExtraGeometrie: 36
+GebiedsinformatieLevering: 1
+Graafpolygoon: 1
+Maatvoering: 1155
+TechnischGebouw: 6
+UtilityLink: 452
+
+2. KLIC Group Analysis:
+--------------------
+
+KLIC_Administratief:
+  Schema: Leveringsinformatie-2.1.xsd
+  Elements:
+    Graafpolygoon: ✓ (1)
+    Annotatie: ✓ (542)
+    Maatvoering: ✓ (1155)
+    TechnischGebouw: ✓ (6)
+  Geometry Types:
+    point: - (0)
+    line: - (0)
+    polygon: - (0)
+
+KLIC_Bijlage:
+  Schema: KlicDocumentenBeheer-1.0.xsd
+  Elements:
+    Bijlage: ✓ (2)
+  Geometry Types:
+    point: - (0)
+    line: - (0)
+    polygon: - (0)
+
+KLIC_EisVoorzorgsmaatregel:
+  Schema: KlicVoorzorgsmaatregelenBeheer-1.0.xsd
+  Elements:
+    EisVoorzorgsmaatregel: - (0)
+    Voorzorgsmaatregel: - (0)
+  Geometry Types:
+    polygon: - (0)
+
+KLIC_LeidingContainerLijn:
+  Schema: Leveringsinformatie-2.1.xsd
+  Elements:
+    LeidingContainerLijn: - (0)
+  Geometry Types:
+    line: - (0)
+
+KLIC_LeidingLijn:
+  Schema: Leveringsinformatie-2.1.xsd
+  Elements:
+    LeidingLijn: - (0)
+  Geometry Types:
+    line: - (0)
+
+KLIC_LeidingPunt:
+  Schema: Leveringsinformatie-2.1.xsd
+  Elements:
+    LeidingPunt: - (0)
+  Geometry Types:
+    point: - (0)
+
+3. Geometry Types by Feature:
+--------------------------
+
+4. CRS Information:
+-----------------
+CRS: urn:ogc:def:crs:EPSG::28992

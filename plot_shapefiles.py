@@ -12,9 +12,11 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 from rasterio.plot import show
 from rasterio.transform import Affine
+from contextlib import contextmanager
+from typing import Generator
 from PIL import Image
 from lxml import etree
-from typing import List, Tuple, Dict, Optional
+from typing import Tuple, Optional
 import argparse
 from datetime import datetime
 import sys
@@ -48,15 +50,61 @@ LAYER_STYLES = {
 
 EXPECTED_LAYER_NAMES = list(LAYER_STYLES.keys())
 
-# Read the bounding box from the XML file
-def envelope_from_xml(xml_path):
-    tree = etree.parse(xml_path)
-    ns = {'gml': 'http://www.opengis.net/gml/3.2'}
-    lower = tree.find('.//gml:lowerCorner', ns).text.split()
-    upper = tree.find('.//gml:upperCorner', ns).text.split()
-    minx, miny = map(float, lower)
-    maxx, maxy = map(float, upper)
-    return minx, miny, maxx, maxy
+# XML namespaces used in KLIC files
+NAMESPACES = {
+    'gml': 'http://www.opengis.net/gml/3.2',
+    'imkl': 'http://www.geostandaarden.nl/imkl/wibon',
+    'net': 'http://inspire.ec.europa.eu/schemas/net/4.0',
+    'us-net-common': 'http://inspire.ec.europa.eu/schemas/us-net-common/4.0',
+    'xlink': 'http://www.w3.org/1999/xlink'
+}
+
+@contextmanager
+def iterparse_context(xml_path: str, events=('end',)) -> Generator:
+    """Context manager for iterparse that handles cleanup."""
+    context = etree.iterparse(xml_path, events=events, recover=True)
+    yield context
+    del context
+
+def envelope_from_xml(xml_path: str) -> Tuple[float, float, float, float]:
+    """Read the bounding box from XML file using streaming parser.
+    
+    Args:
+        xml_path: Path to the XML file
+        
+    Returns:
+        Tuple of (minx, miny, maxx, maxy)
+    """
+    bbox = {'lower': None, 'upper': None}
+    
+    try:
+        with iterparse_context(xml_path, events=('end',)) as context:
+            for event, elem in context:
+                if event == 'end':
+                    tag = elem.tag.split('}')[-1]  # Remove namespace
+                    
+                    if tag == 'lowerCorner':
+                        bbox['lower'] = list(map(float, elem.text.split()))
+                    elif tag == 'upperCorner':
+                        bbox['upper'] = list(map(float, elem.text.split()))
+                        
+                    # Clear element from memory
+                    elem.clear()
+                    while elem.getprevious() is not None:
+                        del elem.getparent()[0]
+                        
+                    # Break if we have both coordinates
+                    if bbox['lower'] and bbox['upper']:
+                        break
+                        
+        if not (bbox['lower'] and bbox['upper']):
+            raise ValueError("Could not find both lowerCorner and upperCorner in XML")
+            
+        return bbox['lower'][0], bbox['lower'][1], bbox['upper'][0], bbox['upper'][1]
+        
+    except Exception as e:
+        logger.error(f"Error reading bounding box from {xml_path}: {str(e)}")
+        raise
 
 def plot_shapefiles(shapefiles_dir: Path, reference_image_path: Path, 
                    xml_path: Path, save_path: Path) -> None:
@@ -103,17 +151,22 @@ def plot_shapefiles(shapefiles_dir: Path, reference_image_path: Path,
         ]
         
         # Function to plot reference image on an axis
-        def plot_reference(ax):
-            with rasterio.open(reference_image_path, 'r',
-                             driver='PNG',
-                             transform=transform,
-                             crs='EPSG:28992') as src:
-                show(src.read(), transform=transform, ax=ax)
+        def plot_reference(ax, src_data=None, transform=None):
+            if src_data is not None:
+                show(src_data, transform=transform, ax=ax)
             ax.set_axis_off()
 
-        # Plot reference image on all subplots
-        for ax in axes:
-            plot_reference(ax)
+        # Read reference image once and reuse
+        with rasterio.open(reference_image_path, 'r',
+                          driver='PNG',
+                          transform=transform,
+                          crs='EPSG:28992') as src:
+            src_data = src.read()
+            # Plot reference image on all subplots
+            for ax in axes:
+                plot_reference(ax, src_data, transform)
+            # Clear source data
+            del src_data
 
         # Group layers by type
         polygon_layers = [l for l in EXPECTED_LAYER_NAMES if 'polygon' in l.lower()]
@@ -126,11 +179,16 @@ def plot_shapefiles(shapefiles_dir: Path, reference_image_path: Path,
                 shp_path = shapefiles_dir / f"{layer_name}.shp"
                 if shp_path.exists():
                     try:
+                        # Read shapefile and plot directly
+                        style = LAYER_STYLES.get(layer_name, {})
                         gdf = gpd.read_file(shp_path)
                         if not gdf.empty:
-                            style = LAYER_STYLES.get(layer_name, {})
                             gdf.plot(ax=ax, **style)
                             logger.info(f"Plotted layer: {layer_name}")
+                        
+                        # Clear dataframe from memory
+                        del gdf
+                        
                     except Exception as e:
                         logger.warning(f"Error plotting {layer_name}: {str(e)}")
             ax.set_title(title, pad=10, fontsize=12)
