@@ -1,3 +1,7 @@
 geopandas
 lxml
 shapely
+pillow
+matplotlib
+rasterio
+argparse

@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?><gml:FeatureCollection gml:id="gil_b949cea9-11bf-49db-808a-c0bb4797132d" xsi:schemaLocation="http://www.geostandaarden.nl/imkl/wibon http://register.geostandaarden.nl/gmlapplicatieschema/imkl/2.0.0/imkl-wibon.xsd" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:base2="http://inspire.ec.europa.eu/schemas/base2/2.0" xmlns:imkl="http://www.geostandaarden.nl/imkl/wibon" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3">
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::28992" srsDimension="2">
+            <gml:lowerCorner>141113.0 452542.0</gml:lowerCorner>
+            <gml:upperCorner>141329.0 452650.0</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+    <gml:featureMember>
+        <imkl:GebiedsinformatieLevering gml:id="nl.imkl-KA0000._GebiedsinformatieLevering_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KA0000._GebiedsinformatieLevering_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T14:21:54.753+02:00</imkl:beginLifespanVersion>
+            <imkl:leveringsvolgnummer>1</imkl:leveringsvolgnummer>
+            <imkl:datumLeveringSamengesteld>2025-03-31T14:21:54.753+02:00</imkl:datumLeveringSamengesteld>
+            <imkl:indicatieLeveringCompleet>true</imkl:indicatieLeveringCompleet>
+            <imkl:achtergrondkaart>
+                <imkl:Achtergrondkaart>
+                    <imkl:achtergrondkaartSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AchtergrondkaartSoortValue/bgtRaster"/>
+                    <imkl:kaartreferentie>bronnen/GB_25G0250429.png</imkl:kaartreferentie>
+                </imkl:Achtergrondkaart>
+            </imkl:achtergrondkaart>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1771._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1053._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-GM0312._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1081._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1011._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1049._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1375._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1048._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1051._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-PV0026._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1010._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1033._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1098._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1220._Belanghebbende_25G0250429-1"/>
+            <imkl:belanghebbende xlink:href="nl.imkl-KL1142._Belanghebbende_25G0250429-1"/>
+            <imkl:aanvraag xlink:href="nl.imkl-KA0000._GebiedsinformatieAanvraag_25G0250429"/>
+        </imkl:GebiedsinformatieLevering>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:GebiedsinformatieAanvraag gml:id="nl.imkl-KA0000._GebiedsinformatieAanvraag_25G0250429">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KA0000._GebiedsinformatieAanvraag_25G0250429</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:20:18.000+02:00</imkl:beginLifespanVersion>
+            <imkl:ordernummer>9826356235</imkl:ordernummer>
+            <imkl:positienummer>0000000010</imkl:positienummer>
+            <imkl:klicMeldnummer>25G0250429</imkl:klicMeldnummer>
+            <imkl:aanvrager>
+                <imkl:Aanvrager>
+                    <imkl:contactpersoon>
+                        <imkl:Contact>
+                            <imkl:naam>Ex</imkl:naam>
+                            <imkl:telefoon>(06) 22 32 64 66</imkl:telefoon>
+                            <imkl:email>projectvoorbereiding@hdb-bv.nl</imkl:email>
+                        </imkl:Contact>
+                    </imkl:contactpersoon>
+                    <imkl:organisatie>
+                        <imkl:Organisatie>
+                            <imkl:naam>HdB Tekenburo B.V.</imkl:naam>
+                            <imkl:kvkNummer>17134558</imkl:kvkNummer>
+                            <imkl:bezoekAdres>
+                                <imkl:Adres>
+                                    <imkl:BAGid>0796200001019909</imkl:BAGid>
+                                    <imkl:openbareRuimteNaam>de Diepteweg</imkl:openbareRuimteNaam>
+                                    <imkl:huisnummer>16</imkl:huisnummer>
+                                    <imkl:woonplaatsNaam>'S-HERTOGENBOSCH</imkl:woonplaatsNaam>
+                                    <imkl:postcode>5236 PV</imkl:postcode>
+                                    <imkl:landcode xlink:href="http://publications.europa.eu/resource/authority/country/NLD"/>
+                                </imkl:Adres>
+                            </imkl:bezoekAdres>
+                        </imkl:Organisatie>
+                    </imkl:organisatie>
+                </imkl:Aanvrager>
+            </imkl:aanvrager>
+            <imkl:referentie>2025PS07219</imkl:referentie>
+            <imkl:opdrachtgever>
+                <imkl:Opdrachtgever>
+                    <imkl:contactpersoon>
+                        <imkl:Contact>
+                            <imkl:naam>Ex</imkl:naam>
+                            <imkl:telefoon>(06) 22 32 64 66</imkl:telefoon>
+                            <imkl:email>projectvoorbereiding@hdb-bv.nl</imkl:email>
+                        </imkl:Contact>
+                    </imkl:contactpersoon>
+                    <imkl:organisatie>
+                        <imkl:Organisatie>
+                            <imkl:naam>HdB Tekenburo B.V.</imkl:naam>
+                            <imkl:kvkNummer>17134558</imkl:kvkNummer>
+                            <imkl:bezoekAdres>
+                                <imkl:Adres>
+                                    <imkl:BAGid>0796200001019909</imkl:BAGid>
+                                    <imkl:openbareRuimteNaam>de Diepteweg</imkl:openbareRuimteNaam>
+                                    <imkl:huisnummer>16</imkl:huisnummer>
+                                    <imkl:woonplaatsNaam>'S-HERTOGENBOSCH</imkl:woonplaatsNaam>
+                                    <imkl:postcode>5236 PV</imkl:postcode>
+                                    <imkl:landcode xlink:href="http://publications.europa.eu/resource/authority/country/NLD"/>
+                                </imkl:Adres>
+                            </imkl:bezoekAdres>
+                        </imkl:Organisatie>
+                    </imkl:organisatie>
+                </imkl:Opdrachtgever>
+            </imkl:opdrachtgever>
+            <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+            <imkl:aanvraagDatum>2025-03-31T12:20:18.000+02:00</imkl:aanvraagDatum>
+            <imkl:soortWerkzaamheden xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/SoortWerkzaamhedenValue/proefsleuvenGraven"/>
+            <imkl:locatieWerkzaamheden>
+                <imkl:Adres>
+                    <imkl:BAGid>0312010000008179</imkl:BAGid>
+                    <imkl:openbareRuimteNaam>Parallelweg</imkl:openbareRuimteNaam>
+                    <imkl:huisnummer>15</imkl:huisnummer>
+                    <imkl:woonplaatsNaam>Bunnik</imkl:woonplaatsNaam>
+                    <imkl:landcode xlink:href="http://publications.europa.eu/resource/authority/country/NLD"/>
+                </imkl:Adres>
+            </imkl:locatieWerkzaamheden>
+            <imkl:startDatum>2025-04-01</imkl:startDatum>
+            <imkl:eindDatum>2025-04-25</imkl:eindDatum>
+            <imkl:huisaansluitingAdressen>
+                <imkl:Adres>
+                    <imkl:BAGid>0312010000008179</imkl:BAGid>
+                    <imkl:openbareRuimteNaam>Parallelweg</imkl:openbareRuimteNaam>
+                    <imkl:huisnummer>15</imkl:huisnummer>
+                    <imkl:woonplaatsNaam>Bunnik</imkl:woonplaatsNaam>
+                    <imkl:landcode xlink:href="http://publications.europa.eu/resource/authority/country/NLD"/>
+                </imkl:Adres>
+            </imkl:huisaansluitingAdressen>
+            <imkl:graafpolygoon xlink:href="nl.imkl-KA0000._Graafpolygoon_25G0250429"/>
+        </imkl:GebiedsinformatieAanvraag>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Graafpolygoon gml:id="nl.imkl-KA0000._Graafpolygoon_25G0250429">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KA0000._Graafpolygoon_25G0250429</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:20:18.000+02:00</imkl:beginLifespanVersion>
+            <imkl:geometrie>
+                <gml:Polygon srsName="urn:ogc:def:crs:EPSG::28992" srsDimension="2" gml:id="nl.imkl-KA0000._Graafpolygoon_25G0250429_geo">
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>141222.973 452649.46 141114.695 452645.883 141113.933 452543.389 141319.774 452542.246 141328.161 452644.359 141222.973 452649.46</gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+            </imkl:geometrie>
+        </imkl:Graafpolygoon>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1771._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1771._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:29.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:bijlage xlink:href="nl.imkl-KL1771.Bijlage-1"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1771._Belang_5055401-121"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1771._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1771._Belang_5055401-121">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1771._Belang_5055401</imkl:lokaalID>
+                    <imkl:versie>121</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-27T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>belang_MN_20190501</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>MN afdeling gegevensbeheer</imkl:naam>
+                    <imkl:telefoon>0887973111</imkl:telefoon>
+                    <imkl:email>MNZ-graafmeldingen@rws.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/gasLageDruk"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/hoogspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/middenspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/overig"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/petrochemie"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/rioolOnderOverOfOnderdruk"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/rioolVrijverval"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/warmte"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/water"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>MN afdeling gegevensbeheer</imkl:naam>
+                    <imkl:telefoon>0887973111</imkl:telefoon>
+                    <imkl:email>MNZ-graafmeldingen@rws.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>RWS informatielijn</imkl:naam>
+                    <imkl:telefoon>0800 8002</imkl:telefoon>
+                    <imkl:email>CD_0800-8002@rws.nl</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1771._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1771._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1771</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Rijkswaterstaat Midden-Nederland</imkl:naam>
+                    <imkl:kvkNummer>27364178</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1053._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1053._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:45.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>true</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>true</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:utiliteitsnet xlink:href="nl.imkl-KL1053.DPO_buisleidingGevaarlijkeInhoud"/>
+            <imkl:bijlage xlink:href="nl.imkl-KL1053._EisVoorzorgsmaatregelBijlage_25G0250429_buisleidingGevaarlijkeInhoud"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1053._Belang_5057430-16"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1053._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1053._Belang_5057430-16">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1053._Belang_5057430</imkl:lokaalID>
+                    <imkl:versie>16</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-02-08T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Klaphek Oost</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Erik van Rijssen</imkl:naam>
+                    <imkl:telefoon>+31651428931</imkl:telefoon>
+                    <imkl:email>e.vanrijssen@dpo.mindef.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/buisleidingGevaarlijkeInhoud"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Erik van Rijssen</imkl:naam>
+                    <imkl:telefoon>+31651428931</imkl:telefoon>
+                    <imkl:email>e.vanrijssen@dpo.mindef.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>VGI/ Dispatch</imkl:naam>
+                    <imkl:telefoon>+31105061555</imkl:telefoon>
+                    <imkl:email>5PDC@DPO.mindef.nl</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1053._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1053._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1053</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Defensie Pijpleiding Organisatie</imkl:naam>
+                    <imkl:kvkNummer>27370985</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-GM0312._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>GM0312._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:31.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-GM0312._Belang_5000995-500"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-GM0312._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-GM0312._Belang_5000995-500">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>GM0312._Belang_5000995</imkl:lokaalID>
+                    <imkl:versie>500</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2019-04-16T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>BUNN_1</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Kabel- en leidingbeheer</imkl:naam>
+                    <imkl:telefoon>085-7733656</imkl:telefoon>
+                    <imkl:email>wibon_gemeente_bunnik@goconnectit.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/rioolOnderOverOfOnderdruk"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/rioolVrijverval"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/water"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/wees"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Kabel- en leidingbeheer</imkl:naam>
+                    <imkl:telefoon>085-7733656</imkl:telefoon>
+                    <imkl:email>wibon_gemeente_bunnik@goconnectit.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Gerard Drost</imkl:naam>
+                    <imkl:telefoon>030-6594892</imkl:telefoon>
+                    <imkl:email>G.Drost@bunnik.nl</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-GM0312._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>GM0312._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>GM0312</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Gemeente Bunnik</imkl:naam>
+                    <imkl:kvkNummer>30278213</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1081._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1081._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:27.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:bijlage xlink:href="nl.imkl-KL1081.BijlagAlgemeen_4b9e4f40_2a56_4cff_8525_b49eb64571f3_1"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1081._Belang_5000674-602"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1081._Belang_5000671-802"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1081._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1081._Belang_5000674-602">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1081._Belang_5000674</imkl:lokaalID>
+                    <imkl:versie>602</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2018-12-04T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Stedin_1_G</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Klicdesk Stedin</imkl:naam>
+                    <imkl:telefoon>0888956222</imkl:telefoon>
+                    <imkl:email>klicdesk@stedin.net</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/gasHogeDruk"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/gasLageDruk"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Klicdesk Stedin</imkl:naam>
+                    <imkl:telefoon>0888956222</imkl:telefoon>
+                    <imkl:email>klicdesk@stedin.net</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Nationaal Storingsnummer E-G</imkl:naam>
+                    <imkl:telefoon>0800 9009</imkl:telefoon>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1081._Belang_5000671-802">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1081._Belang_5000671</imkl:lokaalID>
+                    <imkl:versie>802</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2018-12-04T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Stedin_1_E</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Klicdesk Stedin</imkl:naam>
+                    <imkl:telefoon>0888956222</imkl:telefoon>
+                    <imkl:email>klicdesk@stedin.net</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/hoogspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/middenspanning"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Klicdesk Stedin</imkl:naam>
+                    <imkl:telefoon>0888956222</imkl:telefoon>
+                    <imkl:email>klicdesk@stedin.net</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Nationaal Storingsnummer E-G</imkl:naam>
+                    <imkl:telefoon>0800 9009</imkl:telefoon>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1081._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1081._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1081</imkl:bronhoudercode>
+            <imkl:websiteKlic>http://www.stedin.net/klicinfo</imkl:websiteKlic>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Stedin Netbeheer B.V.</imkl:naam>
+                    <imkl:naam>T.A.V. Stedin Groep Services</imkl:naam>
+                    <imkl:kvkNummer>24289101</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1011._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1011._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T14:21:04.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1011._Belang_5000355-701"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1011._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1011._Belang_5000355-701">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1011._Belang_5000355</imkl:lokaalID>
+                    <imkl:versie>701</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2019-02-16T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Regio West 01</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Network Inventory Management</imkl:naam>
+                    <imkl:telefoon>088-7174401</imkl:telefoon>
+                    <imkl:email>klic@vodafoneziggo.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Network Inventory Management</imkl:naam>
+                    <imkl:telefoon>088-7174401</imkl:telefoon>
+                    <imkl:email>klic@vodafoneziggo.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Operations Centre</imkl:naam>
+                    <imkl:telefoon>088-7174401</imkl:telefoon>
+                    <imkl:email>noc@vodafoneziggo.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1011._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1011._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1011</imkl:bronhoudercode>
+            <imkl:websiteKlic>https://www.ziggo.nl/klic</imkl:websiteKlic>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Ziggo B.V.</imkl:naam>
+                    <imkl:kvkNummer>37026706</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1049._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1049._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:29:39.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1049._Belang_5011195-102"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1049._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1049._Belang_5011195-102">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1049._Belang_5011195</imkl:lokaalID>
+                    <imkl:versie>102</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2019-03-28T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Regio Midden</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Reggefiber ttH B.V. </imkl:naam>
+                    <imkl:telefoon>088-0063767</imkl:telefoon>
+                    <imkl:email>klic-reggefiber@kpn.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Reggefiber ttH B.V.</imkl:naam>
+                    <imkl:telefoon>088-0063767</imkl:telefoon>
+                    <imkl:email>klic-reggefiber@kpn.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Volker Wessels Telecom</imkl:naam>
+                    <imkl:telefoon>088-0063700</imkl:telefoon>
+                    <imkl:email>grondroerders@vwtelecom.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1049._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1049._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1049</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Reggefiber Operator B.V.</imkl:naam>
+                    <imkl:kvkNummer>08155796</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1375._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1375._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:24:44.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1375._Belang_5003142-101"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1375._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1375._Belang_5003142-101">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1375._Belang_5003142</imkl:lokaalID>
+                    <imkl:versie>101</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2019-05-08T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Poort van Bunnik</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Kabel- en leidingbeheer</imkl:naam>
+                    <imkl:telefoon>0172632193</imkl:telefoon>
+                    <imkl:email>klic_pvb@bam.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/overig"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Kabel- en leidingbeheer</imkl:naam>
+                    <imkl:telefoon>0172632193</imkl:telefoon>
+                    <imkl:email>klic_pvb@bam.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Kabel- en leidingbeheer</imkl:naam>
+                    <imkl:telefoon>0172632193</imkl:telefoon>
+                    <imkl:email>klic_pvb@bam.nl</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1375._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1375._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1375</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Poort Van Bunnik</imkl:naam>
+                    <imkl:kvkNummer>50279033</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1048._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1048._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:39.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1048._Belang_5002879-603"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1048._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1048._Belang_5002879-603">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1048._Belang_5002879</imkl:lokaalID>
+                    <imkl:versie>603</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2019-05-24T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>midden nederland</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>KLIC Vitens</imkl:naam>
+                    <imkl:telefoon>0888846476</imkl:telefoon>
+                    <imkl:email>klic@vitens.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/water"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>KLIC Vitens</imkl:naam>
+                    <imkl:telefoon>0888846476</imkl:telefoon>
+                    <imkl:email>klic@vitens.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Storingsnummer Vitens</imkl:naam>
+                    <imkl:telefoon>08000359</imkl:telefoon>
+                    <imkl:email>klic@vitens.nl</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1048._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1048._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1048</imkl:bronhoudercode>
+            <imkl:websiteKlic>https://www.vitens.nl/zakelijk/graafschade</imkl:websiteKlic>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Vitens</imkl:naam>
+                    <imkl:naam>4500162926</imkl:naam>
+                    <imkl:kvkNummer>05069581</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1051._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1051._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:58.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1051._Belang_5002912-701"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1051._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1051._Belang_5002912-701">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1051._Belang_5002912</imkl:lokaalID>
+                    <imkl:versie>701</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2019-06-18T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>KPN_1</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Klic</imkl:naam>
+                    <imkl:telefoon>(088) 661 03 15</imkl:telefoon>
+                    <imkl:email>orderintakeplan@kpn.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Loket van 08.00 tot 16.30 uur bereikbaar</imkl:naam>
+                    <imkl:telefoon>(088) 661 03 15</imkl:telefoon>
+                    <imkl:email>orderintakeplan@kpn.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Loket van 08.00 tot 16.30 uur bereikbaar</imkl:naam>
+                    <imkl:telefoon>(088) 661 03 15</imkl:telefoon>
+                    <imkl:email>orderintakeplan@kpn.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1051._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1051._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1051</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>KPN B.V.</imkl:naam>
+                    <imkl:naam>Centercode 13395, de heer M. Driezen</imkl:naam>
+                    <imkl:kvkNummer>27124701</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-PV0026._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>PV0026._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:38.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-PV0026._Belang_5001246-304"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-PV0026._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-PV0026._Belang_5001246-304">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>PV0026._Belang_5001246</imkl:lokaalID>
+                    <imkl:versie>304</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2021-06-01T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Gebied Provincie-Utrecht</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>PU-KLIC</imkl:naam>
+                    <imkl:telefoon>030-2583837 </imkl:telefoon>
+                    <imkl:email>BGT_loket@provincie-utrecht.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/hoogspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/middenspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/overig"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/rioolVrijverval"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>PU-KLIC</imkl:naam>
+                    <imkl:telefoon>030-2583837 </imkl:telefoon>
+                    <imkl:email>BGT_loket@provincie-utrecht.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>PU-KLIC</imkl:naam>
+                    <imkl:telefoon>030-2583837 </imkl:telefoon>
+                    <imkl:email>BGT_loket@provincie-utrecht.nl</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-PV0026._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>PV0026._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>PV0026</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Provincie Utrecht</imkl:naam>
+                    <imkl:kvkNummer>30277172</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1010._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:31:47.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:bijlage xlink:href="nl.imkl-KL1010.F12F01_Standaardvoorwaarden_Eurofiber"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057526-31"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057737-25"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5056311-23"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5056941-26"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057228-52"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057446-34"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057359-34"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057156-19"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057653-33"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057591-33"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1010._Belang_5057046-38"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1010._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057526-31">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057526</imkl:lokaalID>
+                    <imkl:versie>31</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2024-06-29T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2024-02</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057737-25">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057737</imkl:lokaalID>
+                    <imkl:versie>25</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-25T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2025-01</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5056311-23">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5056311</imkl:lokaalID>
+                    <imkl:versie>23</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2021-06-29T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2021-2</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5056941-26">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5056941</imkl:lokaalID>
+                    <imkl:versie>26</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2022-12-30T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2022-04</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057228-52">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057228</imkl:lokaalID>
+                    <imkl:versie>52</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2023-09-29T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2023-03</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057446-34">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057446</imkl:lokaalID>
+                    <imkl:versie>34</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2024-03-29T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2024-01</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057359-34">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057359</imkl:lokaalID>
+                    <imkl:versie>34</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2023-12-29T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2023-04</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057156-19">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057156</imkl:lokaalID>
+                    <imkl:versie>19</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2023-05-31T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2023-02</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057653-33">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057653</imkl:lokaalID>
+                    <imkl:versie>33</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2024-12-31T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2024-04</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057591-33">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057591</imkl:lokaalID>
+                    <imkl:versie>33</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2024-10-01T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2024-03</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1010._Belang_5057046-38">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Belang_5057046</imkl:lokaalID>
+                    <imkl:versie>38</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2023-03-31T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Netwerk Eurofiber 2023-01</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Sadji</imkl:naam>
+                    <imkl:telefoon>0302428700</imkl:telefoon>
+                    <imkl:email>vooroverleg@eurofiber.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Network Monitoring Center</imkl:naam>
+                    <imkl:telefoon>0800-387634237</imkl:telefoon>
+                    <imkl:email>nmc@eurofiber.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1010._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1010._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1010</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Eurofiber Nederland B.V.</imkl:naam>
+                    <imkl:kvkNummer>34134377</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1033._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1033._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:43.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:bijlage xlink:href="nl.imkl-KL1033.BijlageAlgemeenNI"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1033._Belang_5055200-2"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1033._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1033._Belang_5055200-2">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1033._Belang_5055200</imkl:lokaalID>
+                    <imkl:versie>2</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2022-05-17T00:00:00.000+02:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>WAB-NPG_UTR-VND</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Galis</imkl:naam>
+                    <imkl:telefoon>+31655387421</imkl:telefoon>
+                    <imkl:email>powergeneration.klic@vattenfall.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Galis</imkl:naam>
+                    <imkl:telefoon>+31655387421</imkl:telefoon>
+                    <imkl:email>powergeneration.klic@vattenfall.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Galis</imkl:naam>
+                    <imkl:telefoon>+31655387421</imkl:telefoon>
+                    <imkl:email>powergeneration.klic@vattenfall.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1033._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1033._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1033</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Vattenfall Power Generation</imkl:naam>
+                    <imkl:naam>Netherlands B.V.</imkl:naam>
+                    <imkl:kvkNummer>30084656</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1098._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1098._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:22:47.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1098._Belang_5055294-42"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1098._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1098._Belang_5055294-42">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1098._Belang_5055294</imkl:lokaalID>
+                    <imkl:versie>42</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2024-12-14T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>2019-euNetworks-totaal</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Brink</imkl:naam>
+                    <imkl:telefoon>0206001872</imkl:telefoon>
+                    <imkl:email>eunetworks@adinfbv.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Brink</imkl:naam>
+                    <imkl:telefoon>0206001872</imkl:telefoon>
+                    <imkl:email>eunetworks@adinfbv.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Eunetworks NOC</imkl:naam>
+                    <imkl:telefoon>0080006500650</imkl:telefoon>
+                    <imkl:email>noc@eunetworks.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1098._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1098._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1098</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Eunetworks p/a Adinf B.V.</imkl:naam>
+                    <imkl:kvkNummer>34184491</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1220._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1220._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:30:32.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1220._Belang_5057792-1"/>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1220._Belang_5055806-90"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1220._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1220._Belang_5057792-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1220._Belang_5057792</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-02-20T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Delta Fiber Netwerk B.V.</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>DFN - NWA - KLIC</imkl:naam>
+                    <imkl:telefoon>0881818233</imkl:telefoon>
+                    <imkl:email>klicmeldingen@deltafiber.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/warmte"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>DFN - NWA - KLIC</imkl:naam>
+                    <imkl:telefoon>0881818233</imkl:telefoon>
+                    <imkl:email>klicmeldingen@deltafiber.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Service Operating Center DFN</imkl:naam>
+                    <imkl:telefoon>088-1818227</imkl:telefoon>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1220._Belang_5055806-90">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1220._Belang_5055806</imkl:lokaalID>
+                    <imkl:versie>90</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-01-09T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Delta Fiber Nederland</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>DFN - NWA - KLIC</imkl:naam>
+                    <imkl:telefoon>0881818233</imkl:telefoon>
+                    <imkl:email>klicmeldingen@deltafiber.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/laagspanning"/>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/warmte"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>DFN - NWA - KLIC</imkl:naam>
+                    <imkl:telefoon>0881818233</imkl:telefoon>
+                    <imkl:email>klicmeldingen@deltafiber.nl</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Service Operating Center DFN</imkl:naam>
+                    <imkl:telefoon>088-1818227</imkl:telefoon>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1220._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1220._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1220</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>DELTA Fiber Netwerk B.V.</imkl:naam>
+                    <imkl:kvkNummer>30075961</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belanghebbende gml:id="nl.imkl-KL1142._Belanghebbende_25G0250429-1">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1142._Belanghebbende_25G0250429</imkl:lokaalID>
+                    <imkl:versie>1</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-03-31T12:31:22.000+02:00</imkl:beginLifespanVersion>
+            <imkl:beheerdersinformatieGeleverd>true</imkl:beheerdersinformatieGeleverd>
+            <imkl:betrokkenBijAanvraag>false</imkl:betrokkenBijAanvraag>
+            <imkl:indicatieEisVoorzorgsmaatregel>false</imkl:indicatieEisVoorzorgsmaatregel>
+            <imkl:geraaktBelangBijGraafpolygoon xlink:href="nl.imkl-KL1142._Belang_5057297-15"/>
+            <imkl:netbeheerder xlink:href="nl.imkl-KL1142._Beheerder"/>
+        </imkl:Belanghebbende>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Belang gml:id="nl.imkl-KL1142._Belang_5057297-15">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1142._Belang_5057297</imkl:lokaalID>
+                    <imkl:versie>15</imkl:versie>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2025-01-18T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:omschrijving>Zayo</imkl:omschrijving>
+            <imkl:contactAanvraag>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Kiat</imkl:naam>
+                    <imkl:telefoon>0613762847</imkl:telefoon>
+                    <imkl:email>klic@vwtelecom.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactAanvraag>
+            <imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/datatransport"/>
+            <imkl:contactNetinformatie>
+                <imkl:AanvraagSoortContact>
+                    <imkl:aanvraagSoort xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/AanvraagSoortValue/graafmelding"/>
+                    <imkl:naam>Kiat</imkl:naam>
+                    <imkl:telefoon>0613762847</imkl:telefoon>
+                    <imkl:email>klic@vwtelecom.com</imkl:email>
+                </imkl:AanvraagSoortContact>
+            </imkl:contactNetinformatie>
+            <imkl:contactBeschadiging>
+                <imkl:Contact>
+                    <imkl:naam>Dienst</imkl:naam>
+                    <imkl:telefoon>0881860830</imkl:telefoon>
+                    <imkl:email>vwtcod@vwtelecom.com</imkl:email>
+                </imkl:Contact>
+            </imkl:contactBeschadiging>
+        </imkl:Belang>
+    </gml:featureMember>
+    <gml:featureMember>
+        <imkl:Beheerder gml:id="nl.imkl-KL1142._Beheerder">
+            <imkl:identificatie>
+                <imkl:NEN3610ID>
+                    <imkl:namespace>nl.imkl</imkl:namespace>
+                    <imkl:lokaalID>KL1142._Beheerder</imkl:lokaalID>
+                </imkl:NEN3610ID>
+            </imkl:identificatie>
+            <imkl:beginLifespanVersion>2000-01-01T00:00:00.000+01:00</imkl:beginLifespanVersion>
+            <imkl:bronhoudercode>KL1142</imkl:bronhoudercode>
+            <imkl:organisatie>
+                <imkl:Organisatie>
+                    <imkl:naam>Zayo</imkl:naam>
+                    <imkl:kvkNummer>32086549</imkl:kvkNummer>
+                </imkl:Organisatie>
+            </imkl:organisatie>
+        </imkl:Beheerder>
+    </gml:featureMember>
+<gml:featureMember>
+<imkl:Bijlage gml:id="nl.imkl-KL1771.Bijlage-1">
+			<imkl:identificatie>
+				<imkl:NEN3610ID>
+					<imkl:namespace>nl.imkl</imkl:namespace>
+					<imkl:lokaalID>KL1771.Bijlage-1</imkl:lokaalID>
+				</imkl:NEN3610ID>
+			</imkl:identificatie>
+			<imkl:beginLifespanVersion>2015-10-30T00:00:00</imkl:beginLifespanVersion>
+			<imkl:bijlageType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BijlageTypeValue/algemeen"/>
+			<imkl:bestandLocatie>bronnen/KL1771/nl.imkl-KL1771_25G0250429.RWSMIDDENNEDERLAND_Algemene_Bijlage.pdf</imkl:bestandLocatie>
+			<imkl:bestandMediaType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/PDF"/>
+			<imkl:bestandIdentificator>nl.imkl-KL1771.RWSMIDDENNEDERLAND_Algemene_Bijlage</imkl:bestandIdentificator>
+		</imkl:Bijlage>
+</gml:featureMember>
+<gml:featureMember>
+<imkl:EisVoorzorgsmaatregelBijlage gml:id="nl.imkl-KL1053._EisVoorzorgsmaatregelBijlage_25G0250429_buisleidingGevaarlijkeInhoud"><imkl:identificatie><imkl:NEN3610ID><imkl:namespace>nl.imkl</imkl:namespace><imkl:lokaalID>KL1053._EisVoorzorgsmaatregelBijlage_25G0250429_buisleidingGevaarlijkeInhoud</imkl:lokaalID></imkl:NEN3610ID></imkl:identificatie><imkl:beginLifespanVersion>2025-03-31T12:22:32.651+02:00</imkl:beginLifespanVersion><imkl:bijlageType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BijlageTypeValue/eisVoorzorgsmaatregel"/><imkl:bestandLocatie>bronnen/KL1053/nl.imkl-KL1053_25G0250429.EV_Graa_buisleidingGevaarlijkeInhoud.pdf</imkl:bestandLocatie><imkl:bestandMediaType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/PDF"/><imkl:bestandIdentificator>nl.imkl-KL1053.EV_Graa_buisleidingGevaarlijkeInhoud</imkl:bestandIdentificator><imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/buisleidingGevaarlijkeInhoud"/><imkl:eisVoorzorgsmaatregel>Maatregel-buisleidingGevaarlijkeInhoud-EV_Graa</imkl:eisVoorzorgsmaatregel><imkl:toelichting>zie bijgevoegde brief</imkl:toelichting></imkl:EisVoorzorgsmaatregelBijlage>
+</gml:featureMember>
+<gml:featureMember>
+<imkl:ExtraDetailinfo gml:id="nl.imkl-KL1053.ExtraDetailinfo-DPO-Algemeen.pdf-107">
+			<imkl:identificatie>
+				<imkl:NEN3610ID>
+					<imkl:namespace>nl.imkl</imkl:namespace>
+					<imkl:lokaalID>KL1053.ExtraDetailinfo-DPO-Algemeen.pdf-107</imkl:lokaalID>
+				</imkl:NEN3610ID>
+			</imkl:identificatie>
+			<imkl:beginLifespanVersion>2019-01-01T00:00:00</imkl:beginLifespanVersion>
+			<imkl:inNetwork xlink:href="nl.imkl-KL1053.DPO_buisleidingGevaarlijkeInhoud"/>
+			<imkl:extraInfoType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/ExtraDetailInfoTypeValue/overig"/><imkl:bestandLocatie>bronnen/KL1053/nl.imkl-KL1053_25G0250429.DPO-Algemeen.pdf</imkl:bestandLocatie><imkl:bestandMediaType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/PDF"/>
+			<imkl:bestandIdentificator>nl.imkl-KL1053.DPO-Algemeen</imkl:bestandIdentificator>
+			<imkl:ligging>
+				<gml:Polygon gml:id="nl.imkl-KL1053.ExtraDetailinfo-DPO-Algemeen.pdf-107-0" srsName="urn:ogc:def:crs:EPSG::28992"><gml:exterior><gml:LinearRing><gml:posList srsDimension="2">141114.695 452645.883 141222.973 452649.46 141328.161 452644.359 141324.299 452597.344 141258.488 452602.578 141202.683 452604.554 141130.079 452602.403 141114.363 452601.216 141114.695 452645.883</gml:posList></gml:LinearRing></gml:exterior></gml:Polygon>
+			</imkl:ligging>
+		</imkl:ExtraDetailinfo>
+</gml:featureMember>
+<gml:featureMember>
+<imkl:Utiliteitsnet gml:id="nl.imkl-KL1053.DPO_buisleidingGevaarlijkeInhoud">
+			<us-net-common:utilityNetworkType xlink:href="http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/oilGasChemical"></us-net-common:utilityNetworkType>
+			<us-net-common:authorityRole xlink:href="http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/owner"></us-net-common:authorityRole>
+			<imkl:identificatie>
+				<imkl:NEN3610ID>
+					<imkl:namespace>nl.imkl</imkl:namespace>
+					<imkl:lokaalID>KL1053.DPO_buisleidingGevaarlijkeInhoud</imkl:lokaalID>
+				</imkl:NEN3610ID>
+			</imkl:identificatie>
+			<imkl:beginLifespanVersion>2019-01-01T00:00:00</imkl:beginLifespanVersion>
+			<imkl:label></imkl:label>
+			<imkl:thema xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/Thema/buisleidingGevaarlijkeInhoud"></imkl:thema>
+		</imkl:Utiliteitsnet>
+</gml:featureMember>
+<gml:featureMember>
+<imkl:AanduidingEisVoorzorgsmaatregel gml:id="nl.imkl-KL1053.AanduidingEisVoorzorgsmaatregel-316">
+			<imkl:identificatie>
+				<imkl:NEN3610ID>
+					<imkl:namespace>nl.imkl</imkl:namespace>
+					<imkl:lokaalID>KL1053.AanduidingEisVoorzorgsmaatregel-316</imkl:lokaalID>
+				</imkl:NEN3610ID>
+			</imkl:identificatie>
+			<imkl:beginLifespanVersion>2019-01-01T00:00:00</imkl:beginLifespanVersion>
+			<imkl:inNetwork xlink:href="nl.imkl-KL1053.DPO_buisleidingGevaarlijkeInhoud"/>
+			<imkl:eisVoorzorgsmaatregel>Maatregel-buisleidingGevaarlijkeInhoud-EV_Graa</imkl:eisVoorzorgsmaatregel>
+			<imkl:contactVoorzorgsmaatregel>
+				<imkl:Contact>
+					<imkl:naam>Erik van Rijssen</imkl:naam>
+					<imkl:telefoon>06 514 28 931</imkl:telefoon>
+					<imkl:email>e.vanrijssen@dpo.mindef.nl</imkl:email>
+				</imkl:Contact>
+			</imkl:contactVoorzorgsmaatregel>
+			<imkl:netbeheerderNetOmschrijving>Eisvoorzorgsmaatregel</imkl:netbeheerderNetOmschrijving><imkl:netbeheerderNetAanduiding>GraafEV</imkl:netbeheerderNetAanduiding>
+			<imkl:netbeheerderWerkAanduiding>W2-Regulier</imkl:netbeheerderWerkAanduiding><imkl:geometrie>
+				<gml:Polygon gml:id="nl.imkl-KL1053.AanduidingEisVoorzorgsmaatregel-316-0" srsName="urn:ogc:def:crs:EPSG::28992"><gml:exterior><gml:LinearRing><gml:posList srsDimension="2">141114.695 452645.883 141222.973 452649.46 141328.161 452644.359 141327.164 452632.222 141260.505 452637.522 141183.462 452639.371 141114.612 452634.671 141114.695 452645.883</gml:posList></gml:LinearRing></gml:exterior></gml:Polygon>
+			</imkl:geometrie>
+		</imkl:AanduidingEisVoorzorgsmaatregel>
+</gml:featureMember>
+<gml:featureMember>
+<imkl:Bijlage gml:id="nl.imkl-KL1081.BijlagAlgemeen_4b9e4f40_2a56_4cff_8525_b49eb64571f3_1">
+			<imkl:identificatie>
+				<imkl:NEN3610ID>
+					<imkl:namespace>nl.imkl</imkl:namespace>
+					<imkl:lokaalID>KL1081.BijlagAlgemeen_4b9e4f40_2a56_4cff_8525_b49eb64571f3_1</imkl:lokaalID>
+				</imkl:NEN3610ID>
+			</imkl:identificatie>
+			<imkl:beginLifespanVersion>2025-03-31T03:39:52.4158257+02:00</imkl:beginLifespanVersion>
+			<imkl:bijlageType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BijlageTypeValue/algemeen"/>
+			<imkl:bestandLocatie>bronnen/KL1081/nl.imkl-KL1081_25G0250429.KlicBriefAlgemeenStedin_9d6664ee_d51b_4b97_93c3_e212c755e2f7.pdf</imkl:bestandLocatie>
+			<imkl:bestandMediaType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/PDF"/>
+			<imkl:bestandIdentificator>nl.imkl-KL1081.KlicBriefAlgemeenStedin_9d6664ee_d51b_4b97_93c3_e212c755e2f7</imkl:bestandIdentificator>
+		</imkl:Bijlage>
+</gml:featureMember>
+<gml:featureMember>
+<imkl:Bijlage gml:id="nl.imkl-KL1010.F12F01_Standaardvoorwaarden_Eurofiber">
+      <imkl:identificatie>
+        <imkl:NEN3610ID>
+          <imkl:namespace>nl.imkl</imkl:namespace>
+          <imkl:lokaalID>KL1010.F12F01_Standaardvoorwaarden_Eurofiber</imkl:lokaalID>
+        </imkl:NEN3610ID>
+      </imkl:identificatie>
+      <imkl:beginLifespanVersion>2025-03-31T12:31:47</imkl:beginLifespanVersion>
+      <imkl:bijlageType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BijlageTypeValue/algemeen"/>
+      <imkl:bestandLocatie>bronnen/KL1010/nl.imkl-KL1010_25G0250429.F12F01_Standaardvoorwaarden_Eurofiber.pdf</imkl:bestandLocatie>
+      <imkl:bestandMediaType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/PDF"/>
+      <imkl:bestandIdentificator>nl.imkl-KL1010.F12F01_Standaardvoorwaarden_Eurofiber</imkl:bestandIdentificator>
+    </imkl:Bijlage>
+</gml:featureMember>
+<gml:featureMember>
+<imkl:Bijlage gml:id="nl.imkl-KL1033.BijlageAlgemeenNI">
+			<imkl:identificatie>
+				<imkl:NEN3610ID>
+					<imkl:namespace>nl.imkl</imkl:namespace>
+					<imkl:lokaalID>KL1033.BijlageAlgemeenNI</imkl:lokaalID>
+				</imkl:NEN3610ID>
+			</imkl:identificatie>
+			<imkl:beginLifespanVersion>2001-12-17T09:30:47.00+01:00</imkl:beginLifespanVersion>
+			<imkl:bijlageType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BijlageTypeValue/algemeen"/>
+			<imkl:bestandLocatie>bronnen/KL1033/nl.imkl-KL1033_25G0250429.BijlageAlgemeen.pdf</imkl:bestandLocatie>
+			<imkl:bestandMediaType xlink:href="http://definities.geostandaarden.nl/imkl2015/id/waarde/BestandMediaTypeValue/PDF"/>
+			<imkl:bestandIdentificator>nl.imkl-KL1033.BijlageAlgemeen</imkl:bestandIdentificator>
+		</imkl:Bijlage>
+</gml:featureMember>
+</gml:FeatureCollection>
